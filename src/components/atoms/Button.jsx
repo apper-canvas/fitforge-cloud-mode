@@ -20,8 +20,8 @@ const Button = ({
     primary: "bg-primary text-white hover:bg-primary/90 focus:ring-primary/50 shadow-lg hover:shadow-primary/25",
     secondary: "bg-secondary text-white hover:bg-secondary/90 focus:ring-secondary/50 shadow-lg hover:shadow-secondary/25",
     accent: "bg-accent text-black hover:bg-accent/90 focus:ring-accent/50 shadow-lg hover:shadow-accent/25",
-    outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary/50",
-    ghost: "text-gray-300 hover:bg-gray-800 hover:text-white focus:ring-gray-500/50",
+outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary/50",
+    ghost: "text-gray-300 dark:text-gray-300 text-light-text-secondary hover:bg-gray-800 dark:hover:bg-gray-800 hover:bg-gray-200 hover:text-white dark:hover:text-white hover:text-light-text-primary focus:ring-gray-500/50",
     success: "bg-success text-white hover:bg-success/90 focus:ring-success/50",
     danger: "bg-error text-white hover:bg-error/90 focus:ring-error/50"
   };

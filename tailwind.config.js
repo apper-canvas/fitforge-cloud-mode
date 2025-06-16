@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -27,6 +28,22 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a'
+},
+        light: {
+          primary: '#FF6B35',
+          secondary: '#004E89',
+          accent: '#00D9FF',
+          surface: '#FFFFFF',
+          background: '#F8FAFC',
+          success: '#00C896',
+          warning: '#FFB700',
+          error: '#FF3E3E',
+          info: '#00A8E8',
+          text: {
+            primary: '#1F2937',
+            secondary: '#6B7280',
+            muted: '#9CA3AF'
+          }
         }
       },
       fontFamily: {
