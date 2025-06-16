@@ -29,9 +29,28 @@ class UserProfileService {
     return { ...this.data };
   }
 
-  async isSetupComplete() {
+async isSetupComplete() {
     await delay(100);
     return this.data.isSetupComplete || false;
+  }
+
+  async isHealthSurveyComplete() {
+    await delay(100);
+    return this.data.isHealthSurveyComplete || false;
+  }
+
+  async completeHealthSurvey(healthData) {
+    await delay(400);
+    this.data = {
+      ...this.data,
+      healthInfo: {
+        ...this.data.healthInfo,
+        ...healthData
+      },
+      isHealthSurveyComplete: true,
+      updatedAt: new Date().toISOString()
+    };
+    return { ...this.data };
   }
 }
 

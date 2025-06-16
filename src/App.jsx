@@ -6,6 +6,53 @@ import { routes, routeArray } from './config/routes';
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+  const [isSetupComplete, setIsSetupComplete] = React.useState(null);
+  const [isHealthSurveyComplete, setIsHealthSurveyComplete] = React.useState(null);
+
+  React.useEffect(() => {
+    const checkSetupStatus = async () => {
+      try {
+        const { userProfileService } = await import('./services');
+        const setupComplete = await userProfileService.isSetupComplete();
+        const healthSurveyComplete = await userProfileService.isHealthSurveyComplete();
+        setIsSetupComplete(setupComplete);
+        setIsHealthSurveyComplete(healthSurveyComplete);
+      } catch (error) {
+        console.error('Error checking setup status:', error);
+        setIsSetupComplete(false);
+        setIsHealthSurveyComplete(false);
+      }
+    };
+
+    checkSetupStatus();
+  }, []);
+
+  // Show loading while checking setup status
+  if (isSetupComplete === null || isHealthSurveyComplete === null) {
+    return (
+      <div className="min-h-screen bg-background text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+          <div className="text-gray-400">Loading...</div>
+        </div>
+      </div>
+    );
+  }
+
+  // Redirect to setup if not complete
+  if (!isSetupComplete) {
+    return (
+      <BrowserRouter>
+        <div className="min-h-screen bg-background text-white">
+          <Routes>
+            <Route path="/setup" element={<routes.setup.component />} />
+            <Route path="*" element={<Navigate to="/setup" replace />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    );
+  }
+
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-background text-white">

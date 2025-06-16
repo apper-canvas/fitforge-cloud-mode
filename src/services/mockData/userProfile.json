@@ -2,7 +2,8 @@
   "id": "user_001",
   "name": "Alex Johnson",
   "email": "alex@example.com",
-  "isSetupComplete": true,
+"isSetupComplete": true,
+  "isHealthSurveyComplete": false,
   "goals": ["strength", "muscle_gain"],
   "experience": "intermediate",
   "equipment": ["barbell", "dumbbells", "bench", "pull-up bar"],
@@ -11,6 +12,20 @@
     "preferredDays": ["monday", "wednesday", "friday", "saturday"],
     "sessionDuration": 60,
     "preferredTime": "evening"
+  },
+  "healthInfo": {
+    "healthIssues": [],
+    "healthGoals": [],
+    "targetAreas": [],
+    "dietaryPreferences": [],
+    "allergies": [],
+    "medications": [],
+    "activityLevel": "",
+    "sleepHours": 8,
+    "stressLevel": "",
+    "injuries": [],
+    "medicalConditions": [],
+    "fitnessLimitations": ""
   },
   "preferences": {
     "units": "imperial",
