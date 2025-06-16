@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ex_barbell_squat",
+    "name": "Barbell Squat",
+    "category": "legs",
+    "muscleGroups": ["quadriceps", "glutes", "hamstrings"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": [
+      "Stand with feet shoulder-width apart, barbell on your back",
+      "Lower down by bending at hips and knees",
+      "Keep chest up and knees tracking over toes",
+      "Push through heels to return to starting position"
+    ],
+    "formTips": [
+      "Keep your core tight throughout the movement",
+      "Don't let your knees cave inward",
+      "Descend until thighs are parallel to the floor",
+      "Drive through your heels, not your toes"
+    ]
+  },
+  {
+    "id": "ex_bench_press",
+    "name": "Bench Press",
+    "category": "chest",
+    "muscleGroups": ["chest", "triceps", "shoulders"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": [
+      "Lie flat on bench with feet firmly on ground",
+      "Grip barbell slightly wider than shoulder-width",
+      "Lower bar to chest with control",
+      "Press bar back up to arm's length"
+    ],
+    "formTips": [
+      "Keep your shoulder blades pinched together",
+      "Maintain a slight arch in your back",
+      "Don't bounce the bar off your chest",
+      "Keep your wrists straight and strong"
+    ]
+  },
+  {
+    "id": "ex_deadlift",
+    "name": "Deadlift",
+    "category": "back",
+    "muscleGroups": ["hamstrings", "glutes", "erector spinae", "traps"],
+    "equipment": "barbell",
+    "difficulty": "advanced",
+    "instructions": [
+      "Stand with feet hip-width apart, bar over mid-foot",
+      "Bend at hips and knees to grasp the bar",
+      "Keep chest up and shoulders back",
+      "Drive through heels to lift the bar"
+    ],
+    "formTips": [
+      "Keep the bar close to your body throughout",
+      "Don't round your back",
+      "Push the floor away with your feet",
+      "Finish with hips forward, not by leaning back"
+    ]
+  },
+  {
+    "id": "ex_pull_ups",
+    "name": "Pull-ups",
+    "category": "back",
+    "muscleGroups": ["lats", "rhomboids", "biceps"],
+    "equipment": "pull-up bar",
+    "difficulty": "intermediate",
+    "instructions": [
+      "Hang from bar with palms facing away",
+      "Pull yourself up until chin clears the bar",
+      "Lower yourself with control",
+      "Repeat for desired reps"
+    ],
+    "formTips": [
+      "Start from a dead hang with arms fully extended",
+      "Pull with your back muscles, not just arms",
+      "Avoid swinging or using momentum",
+      "Control the descent for maximum benefit"
+    ]
+  },
+  {
+    "id": "ex_push_ups",
+    "name": "Push-ups",
+    "category": "chest",
+    "muscleGroups": ["chest", "triceps", "shoulders", "core"],
+    "equipment": "bodyweight",
+    "difficulty": "beginner",
+    "instructions": [
+      "Start in plank position with hands under shoulders",
+      "Lower chest to floor while keeping body straight",
+      "Push back up to starting position",
+      "Maintain straight line from head to heels"
+    ],
+    "formTips": [
+      "Keep your core engaged throughout",
+      "Don't let your hips sag or pike up",
+      "Full range of motion for best results",
+      "Breathe in on the way down, out on the way up"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "user_001",
+  "name": "Alex Johnson",
+  "email": "alex@example.com",
+  "isSetupComplete": true,
+  "goals": ["strength", "muscle_gain"],
+  "experience": "intermediate",
+  "equipment": ["barbell", "dumbbells", "bench", "pull-up bar"],
+  "schedule": {
+    "daysPerWeek": 4,
+    "preferredDays": ["monday", "wednesday", "friday", "saturday"],
+    "sessionDuration": 60,
+    "preferredTime": "evening"
+  },
+  "preferences": {
+    "units": "imperial",
+    "restTimerSound": true,
+    "voiceCommands": false,
+    "notifications": true
+  },
+  "stats": {
+    "totalWorkouts": 47,
+    "currentStreak": 5,
+    "longestStreak": 12,
+    "totalVolume": 125000
+  },
+  "createdAt": "2024-01-15T10:30:00Z",
+  "updatedAt": "2024-03-20T14:45:00Z"
+}

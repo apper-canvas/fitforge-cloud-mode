@@ -1,0 +1,143 @@
+[
+  {
+    "id": "log_001",
+    "workoutId": "workout_001",
+    "timestamp": "2024-03-20T07:00:00Z",
+    "duration": 3600,
+    "exercises": [
+      {
+        "exerciseId": "ex_barbell_squat",
+        "sets": [
+          {
+            "id": "set_001_1",
+            "reps": 8,
+            "weight": 185,
+            "completed": true,
+            "timestamp": "2024-03-20T06:15:00Z"
+          },
+          {
+            "id": "set_001_2",
+            "reps": 8,
+            "weight": 185,
+            "completed": true,
+            "timestamp": "2024-03-20T06:18:00Z"
+          },
+          {
+            "id": "set_001_3",
+            "reps": 7,
+            "weight": 185,
+            "completed": true,
+            "timestamp": "2024-03-20T06:21:00Z"
+          },
+          {
+            "id": "set_001_4",
+            "reps": 6,
+            "weight": 185,
+            "completed": true,
+            "timestamp": "2024-03-20T06:24:00Z"
+          }
+        ]
+      },
+      {
+        "exerciseId": "ex_bench_press",
+        "sets": [
+          {
+            "id": "set_002_1",
+            "reps": 10,
+            "weight": 165,
+            "completed": true,
+            "timestamp": "2024-03-20T06:30:00Z"
+          },
+          {
+            "id": "set_002_2",
+            "reps": 10,
+            "weight": 165,
+            "completed": true,
+            "timestamp": "2024-03-20T06:33:00Z"
+          },
+          {
+            "id": "set_002_3",
+            "reps": 9,
+            "weight": 165,
+            "completed": true,
+            "timestamp": "2024-03-20T06:36:00Z"
+          },
+          {
+            "id": "set_002_4",
+            "reps": 8,
+            "weight": 165,
+            "completed": true,
+            "timestamp": "2024-03-20T06:39:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "log_002",
+    "workoutId": "workout_002",
+    "timestamp": "2024-03-19T07:30:00Z",
+    "duration": 2700,
+    "exercises": [
+      {
+        "exerciseId": "ex_deadlift",
+        "sets": [
+          {
+            "id": "set_003_1",
+            "reps": 5,
+            "weight": 225,
+            "completed": true,
+            "timestamp": "2024-03-19T06:45:00Z"
+          },
+          {
+            "id": "set_003_2",
+            "reps": 5,
+            "weight": 225,
+            "completed": true,
+            "timestamp": "2024-03-19T06:49:00Z"
+          },
+          {
+            "id": "set_003_3",
+            "reps": 4,
+            "weight": 225,
+            "completed": true,
+            "timestamp": "2024-03-19T06:53:00Z"
+          }
+        ]
+      },
+      {
+        "exerciseId": "ex_pull_ups",
+        "sets": [
+          {
+            "id": "set_004_1",
+            "reps": 8,
+            "weight": 0,
+            "completed": true,
+            "timestamp": "2024-03-19T07:00:00Z"
+          },
+          {
+            "id": "set_004_2",
+            "reps": 7,
+            "weight": 0,
+            "completed": true,
+            "timestamp": "2024-03-19T07:02:00Z"
+          },
+          {
+            "id": "set_004_3",
+            "reps": 6,
+            "weight": 0,
+            "completed": true,
+            "timestamp": "2024-03-19T07:04:00Z"
+          },
+          {
+            "id": "set_004_4",
+            "reps": 5,
+            "weight": 0,
+            "completed": true,
+            "timestamp": "2024-03-19T07:06:00Z"
+          }
+        ]
+      }
+    ]
+  }
+]
