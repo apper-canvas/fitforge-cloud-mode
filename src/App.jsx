@@ -57,7 +57,7 @@ function App() {
 return (
     <ThemeProvider>
       <BrowserRouter>
-        <div className="min-h-screen bg-background dark:bg-background bg-light-background text-white dark:text-white text-light-text-primary transition-colors duration-200">
+        <div className="min-h-screen bg-background-light dark:bg-background text-text-primary-light dark:text-text-primary transition-colors duration-200">
           <Routes>
             <Route path="/" element={<Layout />}>
             <Route index element={<Navigate to="/today" replace />} />
